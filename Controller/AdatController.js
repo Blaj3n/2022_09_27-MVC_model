@@ -12,6 +12,7 @@ class AdatController {
         //itt írunk bármit a View-ba
         //itt hívjuk meg a Modell-t
         $("button").on("click", () => {
+            let = adatModell.setDuplicateErtek() //visszatérési érték eltárolása
             //itt írunk bármit a View-ba
             //itt hívjuk meg a Modell-t
         })
