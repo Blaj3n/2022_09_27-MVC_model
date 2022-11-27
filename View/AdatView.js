@@ -1,6 +1,7 @@
 class AdatView {
-    constructor() {
-
+    constructor(adat, szuloelem) {
+        this.elem = szuloelem;
+        this.elem.text(adat);
     }
 }
 
