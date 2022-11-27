@@ -1,7 +1,7 @@
 //fog kommunikálni a Modelllel és a View-val
 //ha rákattintunk a gombra akkor történjen valami
-import AdatModell from "../Modell/AdatModell";
-import AdatView from "../View/AdatView";
+import AdatModell from "../Modell/AdatModell.js";
+import AdatView from "../View/AdatView.js";
 class AdatController {
     constructor() {
         //itt példányosítjuk a Modell-t és a View-t
